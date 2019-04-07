@@ -33,7 +33,7 @@ var NewsArray = [
 
   {
     id: 2,
-    articleName: "ZenziZenziZenzic",
+    articleName: "ZenZenZenZenZeNZenZenZenZenZen",
     websiteLink: "wikipedia.org",
     authorNameWithPoints: "140 points by vinchuco",
     flag: "flag",

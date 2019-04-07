@@ -2,7 +2,7 @@
   font-family: sans-serif;
   text-align: center;
   position: absolute;
-  width: 700px;
+  width: 1000px;
 }
 .newsBox {
   background: rgba(204, 201, 212, 0.3);
@@ -33,4 +33,18 @@ ul.titleBox {
   top: 2px;
   border: 1px solid white;
   height: 14px;
+}
+.lowerTagList {
+  display: inline;
+  position: relative;
+  margin-left: 40px;
+}
+.articleName {
+  position: relative;
+  right: 280px;
+  margin-left: 120px;
+}
+.website {
+  position: relative;
+  right: 530px;
 }

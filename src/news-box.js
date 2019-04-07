@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Moment from "react-moment";
 
 var NewsBox = ({ newsArray }) => {
   return (
@@ -12,7 +13,20 @@ var NewsBox = ({ newsArray }) => {
               <td className="website">{newsObject.websiteLink}</td>
             </tr>
 
-            <tr className="lowerTags">a</tr>
+            <tr className="lowerTags">
+              <td>
+                {newsObject.authorNameWithPoints}
+
+                <li className="lowerTagList">
+                  <Moment date={newsObject.time} fromNow />
+                </li>
+                <li className="lowerTagList">|{newsObject.flag}</li>
+                <li className="lowerTagList">|{newsObject.hide}</li>
+                <li className="lowerTagList">|{newsObject.comments}</li>
+                <li className="lowerTagList">|{newsObject.instapaper}</li>
+                <li className="lowerTagList">|{newsObject.savetopocket}</li>
+              </td>
+            </tr>
           </table>
         </li>
       ))}
