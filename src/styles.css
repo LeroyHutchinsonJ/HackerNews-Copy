@@ -1,7 +1,17 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  position: absolute;
+  width: 700px;
 }
 .newsBox {
   background: rgba(204, 201, 212, 0.3);
+}
+.titleBox {
+  background-color: #ed7200;
+  padding: none;
+}
+
+ul.App {
+  list-style-type: none;
 }

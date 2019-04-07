@@ -3,12 +3,17 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 import NewsBox from "./news-box.js";
-
+import Title from "./title.js";
 function App() {
   return (
-    <div className="App">
-      <NewsBox newsArray={NewsArray} />
-    </div>
+    <ul className="App">
+      <li>
+        <Title />
+      </li>
+      <li>
+        <NewsBox newsArray={NewsArray} />
+      </li>
+    </ul>
   );
 }
 
