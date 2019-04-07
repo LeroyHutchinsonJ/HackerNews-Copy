@@ -10,8 +10,27 @@
 .titleBox {
   background-color: #ed7200;
   padding: none;
+  text-align: left;
 }
 
 ul.App {
   list-style-type: none;
+}
+
+ul.titleBox {
+  list-style-type: none;
+  height: 20px;
+}
+
+.listInfo {
+  display: inline;
+  margin-left: -50px;
+  padding: 30px;
+}
+.fa-hacker-news {
+  position: relative;
+  right: 35px;
+  top: 2px;
+  border: 1px solid white;
+  height: 14px;
 }
